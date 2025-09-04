@@ -6,7 +6,7 @@
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #2e222f;
-        color: White;
+        color: #ffffff;
     }
 
     main{
@@ -17,7 +17,7 @@
 @media (prefers-color-scheme: light) {
     body {
         background-color: #4d9be6;
-        color: Dark;
+        color: BLACK;
     }
 
     main {
@@ -35,7 +35,7 @@ body {
 }
 
 main{
-    padding: 1em 1em;
+    padding: 1em;
 }
 
 
@@ -43,12 +43,18 @@ main{
     h1{
         text-align: center;
     }
-     img{
-         display: block;
-         margin: 0 auto;
 
-         width: 10em;
-     }
 
+    #welcome{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            display: block;
+            margin: 0 auto;
+
+            width: 10em;
+        }
+    }
 }
 
