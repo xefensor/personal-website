@@ -86,4 +86,9 @@ main{
 
 footer{
     padding: 1em;
+
+    img{
+        max-height: 100%;
+        width: auto;
+    }
 }
