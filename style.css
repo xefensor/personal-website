@@ -40,12 +40,12 @@ main{
 
 /* unvisited link */
 a:link {
-    color: #fb6b1d;
+    color: #ea4f36;
 }
 
 /* visited link */
 a:visited {
-    color: #e83b3b;
+    color: #b33831;
 }
 
 /* mouse over link */
@@ -55,6 +55,6 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #e83b3b;
+    color: #b33831;
 }
 
