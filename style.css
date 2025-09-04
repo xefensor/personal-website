@@ -3,6 +3,18 @@
     src: url('Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf');
 }
 
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #4d9be6;
+        color: BLACK;
+
+    }
+
+    main {
+        background-color: #8fd3ff;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #2e222f;
@@ -14,24 +26,11 @@
     }
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #4d9be6;
-        color: BLACK;
-    }
-
-    main {
-        background-color: #8fd3ff;
-    }
-}
-
 body {
     font-family: NotoSans;
 
     max-width: 60em;
     margin: auto;
-
-
 }
 
 main{
@@ -39,22 +38,23 @@ main{
 }
 
 
-#intro {
-    h1{
-        text-align: center;
-    }
+/* unvisited link */
+a:link {
+    color: #fb6b1d;
+}
 
+/* visited link */
+a:visited {
+    color: #e83b3b;
+}
 
-    #welcome{
-        display: flex;
-        justify-content: space-between;
+/* mouse over link */
+a:hover {
+    color: #f04f78;
+}
 
-        img{
-            display: block;
-            margin: 0 auto;
-
-            width: 10em;
-        }
-    }
+/* selected link */
+a:active {
+    color: #e83b3b;
 }
 
