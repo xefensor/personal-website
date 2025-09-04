@@ -5,24 +5,64 @@
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: #4d9be6;
-        color: BLACK;
+        background-color: #fca790;
+        color: #2e222f;
 
     }
 
     main {
-        background-color: #8fd3ff;
+        background-color: #fdcbb0;
+    }
+
+    /* unvisited link */
+    a:link {
+        color: #4d65b4;
+    }
+
+    /* visited link */
+    a:visited {
+        color: #484a77;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #f04f78;
+    }
+
+    /* selected link */
+    a:active {
+        color: #484a77;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #2e222f;
-        color: #ffffff;
+        color: #c7dcd0;
     }
 
     main{
         background-color: #3e3546;
+    }
+
+    /* unvisited link */
+    a:link {
+        color: #f9c22b;
+    }
+
+    /* visited link */
+    a:visited {
+        color: #f79617;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #f04f78;
+    }
+
+    /* selected link */
+    a:active {
+        color: #f79617;
     }
 }
 
@@ -35,26 +75,5 @@ body {
 
 main{
     padding: 1em;
-}
-
-
-/* unvisited link */
-a:link {
-    color: #ea4f36;
-}
-
-/* visited link */
-a:visited {
-    color: #b33831;
-}
-
-/* mouse over link */
-a:hover {
-    color: #f04f78;
-}
-
-/* selected link */
-a:active {
-    color: #b33831;
 }
 
