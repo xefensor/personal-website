@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Game reviews - xefensor</title>
+        <link>https://xefensor.cz/game_reviews/</link>
+        <description>Game reviews from the personal site of xefensor</description>
+
+        <item>
+            <title>Starground deep dive review - early access 0.14.1.4</title>
+            <link>https://xefensor.cz/game_reviews/starground_early_access_review/</link>
+            <description>Deep dive review on the game Starground, currently in early access.</description>
+        </item>
+
+    </channel>
+</rss>
